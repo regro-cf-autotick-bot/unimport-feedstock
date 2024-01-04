@@ -1,5 +1,5 @@
 {% set name = "unimport" %}
-{% set version = "1.2.0" %}
+{% set version = "1.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/unimport-{{ version }}.tar.gz
-  sha256: 7c6b6faa2b240a673258515998c74770ddd2e7d3806695d7498dd30255df198b
+  sha256: e0c8f854acb6322d609243a4ec864a5961f81d976e28383b0cafd36a3385aa12
 
 build:
   noarch: python
